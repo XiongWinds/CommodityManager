@@ -1,0 +1,117 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+ul{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(3,1fr 2fr);
+    margin:0px;
+    padding:0px;
+}
+li{
+    list-style:none;
+}
+h1{
+    font-size:14px;
+    font-weight:bold;
+    color:#fff;
+    background-color:#7088AD;
+    text-align:left;
+    padding-left:10px;
+    display:block;
+    width:99%;
+    margrin:1px;
+}
+li[id^=title]{
+    font-size:12px;
+    color:#333333;
+    background-color:#E6E6E6;
+    tex-align:right;
+    padding-right:5px;
+}
+li[id^=content]{
+    height:22px;
+    background-color:#fafafa;
+    text-align:left;
+    padding-left:2px;
+}
+span{
+    color:#ff0000;
+}
+input{
+    width:95%;
+    border-bottom-style:solid;
+    border-style:solid;
+    border-top-color:#426C7C;
+    border-right-color:#CCCCCC;
+    border-bottom-color:#CCCCCC;
+    border-left-color:#426C7C;
+    border:1px solid #0066CC;
+    height:18px;
+}
+intut#tbxNum{
+    text-align:right;
+}
+input#tbxPrice{
+    text-align:right;
+}
+input#tbxMoney{
+    text-align:right;
+}
+input:read-only{
+    background-color:#ff0;
+}
+div{
+    text-align:right;
+}
+div#buttonDiv{
+    width:100%;
+}
+input[type="button"],input[type="submit"]{
+    font-size:12px;
+    width:68px;
+    height:20px;
+    cursor:hand;
+    border:none;
+    font-family:宋体;
+    background-image:url(../images/button.gif);
+    color:#ffffff;
+}
+input[type="button"]:hover,input[type="submit"]:hover{
+    font-size:14px;
+}
+div#infoTable{
+    overflow:auto;
+    width:100%;
+    height:100%;
+}
+div#infoTable table{
+    width:100%;
+    background-color:#ffffff;
+    cellpadding:1px;
+    cellspacing:1px;
+    font-size:12px;
+    text-align:center;
+}
+div#infoTable table th{
+    height:22px;
+    background-color:#7088AD;
+    color:#ffffff;
+    width:8%;
+}
+div#infoTable table tr{
+    height:30px;
+}
+div#infoTable table tr:nth-child(odd){
+    background-color:#fafafa;
+    color:#000;
+}
+div#infoTable table tr:nth-child(even){
+    background-color:#7088AD;
+    color:#fff;
+}
+div#infoTable table tr:nth-child(1){
+    background-color:#7088AD;
+    color:#ffffff;
+}
