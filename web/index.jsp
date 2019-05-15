@@ -11,7 +11,7 @@
   <head>
     <title>订单信息</title>
     <link href="./static/css/mainstyle.css" rel="stylesheet" type="text/css"/>
-    <script src="script.js" type="text/javascript"></script>
+    <script src="./static/js/script.js" type="text/javascript"></script>
   </head>
   <body onload="window_onload()">
     <section>

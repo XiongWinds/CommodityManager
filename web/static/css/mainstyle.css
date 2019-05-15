@@ -72,7 +72,7 @@ input[type="button"],input[type="submit"]{
     font-size:12px;
     width:68px;
     height:20px;
-    cursor:hand;
+    cursor:pointer;
     border:none;
     font-family:宋体;
     background-image:url(../images/button.gif);
@@ -80,6 +80,10 @@ input[type="button"],input[type="submit"]{
 }
 input[type="button"]:hover,input[type="submit"]:hover{
     font-size:14px;
+}
+input[type="button"]:disabled,input[type="submit"]:disabled{
+    font-size:12px;
+    background-image:url(../images/button-disabled.gif);
 }
 div#infoTable{
     overflow:auto;
